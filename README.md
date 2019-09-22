@@ -1,2 +1,1 @@
-# Udacity Pixel Art Maker Project
-Pixel Art Maker Project (Python)
+Udacity Project - Pixel Art Maker (Python)
