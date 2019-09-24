@@ -1,1 +1,1 @@
-Udacity Project - Pixel Art Maker (Python)
+Udacity Project - Pixel Art Maker (Javascript)
