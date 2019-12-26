@@ -12,10 +12,10 @@ function makeGrid(height, width) {
     const table = document.getElementById("pixelCanvas");
     let grid = '';
 
-    // jump loop over each row
+    // jump loop per row
     for (let i = 0; i < height; i++) {
         grid += '<tr class="row-' + i + '">';
-        // loop for each cell
+        // loop per cell
         for (let j = 0; j < width; j++) {
             grid += '<td class="cell" id="row-' + i + '_cell-' + j + '"></td>';
         }
