@@ -12,7 +12,7 @@ function makeGrid(height, width) {
     const table = document.getElementById("pixelCanvas");
     let grid = '';
 
-    // loop over each row
+    // jump loop over each row
     for (let i = 0; i < height; i++) {
         grid += '<tr class="row-' + i + '">';
         // loop for each cell
@@ -21,14 +21,14 @@ function makeGrid(height, width) {
         }
         grid += '</tr>';
     }
-    // add grid into table element
+    // add grid into table elements
     table.innerHTML = grid;
 
-    // Add click event to grid cells once the table grid has been created
+    // Aclick event for grid cells
     addClickEventToCells();
 }
 
-// gets values for height and width from form and uses them to call makrGrid()
+// height+width
 function formSubmission() {
     event.preventDefault();
     const height = document.getElementById('inputHeight').value;
@@ -36,7 +36,6 @@ function formSubmission() {
     makeGrid(height, width);
 }
 
-// add click events to all cells
 function addClickEventToCells() {
     // on color selection return color:
     const colorPicker = document.getElementById("colorPicker");
@@ -49,12 +48,10 @@ function addClickEventToCells() {
     }
 }
 
-
-
-// on submit of form #sizePicker:
+// form
 document.getElementById('sizePicker').onsubmit = function () {
     formSubmission();
 };
 
-// Build a default 10x10 grid.
+// Grid layout
 makeGrid(10, 10);
