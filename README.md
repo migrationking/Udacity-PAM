@@ -5,12 +5,14 @@
 * [Instructions](#instructions)
 * [Contributing](#contributing)
 
-## Instructions
+## Functionality File
 
-To get started, open `designs.js` and start building out the app's functionality.
+The configurations for this game are found at `designs.js.
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+## Udacity Classroom 
 
-## Contributing
+[Udacity Classroom](https://classroom.udacity.com/me).
+
+## Modification for Submission
 
 Project is a checkerbox board game for selecting different boxes and they change colors.
