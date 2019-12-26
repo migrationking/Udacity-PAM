@@ -9,7 +9,7 @@
 //Clarification of code
 
 function makeGrid(height, width) {
-    const table = document.getElementById("pixelCanvas");
+    const canvas = document.getElementById(“pixelCanvas”);
     let grid = '';
 
     // jump loop per row
